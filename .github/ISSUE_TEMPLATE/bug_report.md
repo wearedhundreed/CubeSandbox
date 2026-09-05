@@ -2,8 +2,9 @@
 name: Bug Report
 about: Something is not working as expected
 title: "[Bug Report] "
-labels: ["bug", "needs-triage"]
-assignees: ""
+labels: bug
+assignees: ''
+
 ---
 
 ## Summary

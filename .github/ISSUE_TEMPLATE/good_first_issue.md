@@ -2,8 +2,9 @@
 name: Good First Issue
 about: A well-scoped task suitable for first-time contributors
 title: "[good first issue] "
-labels: ["good first issue", "help wanted"]
-assignees: ""
+labels: good first issue, help wanted
+assignees: ''
+
 ---
 
 <!--

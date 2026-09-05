@@ -2,8 +2,9 @@
 name: Feature Request
 about: Propose a new feature or enhancement
 title: "[Feature Request] "
-labels: ["enhancement", "needs-triage"]
-assignees: ""
+labels: enhancement
+assignees: ''
+
 ---
 
 ## Problem / Motivation

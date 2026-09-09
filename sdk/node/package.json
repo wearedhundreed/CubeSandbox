@@ -48,12 +48,12 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "undici": "^6.19.8"
+    "undici": "^6.28.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
-    "vitest": "^2.0.5"
+    "vitest": "^5.0.0"
   }
 }

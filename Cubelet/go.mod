@@ -3,7 +3,7 @@ module github.com/tencentcloud/CubeSandbox/Cubelet
 go 1.25.7
 
 require (
-	github.com/cilium/ebpf v0.17.3
+	github.com/cilium/ebpf v0.22.0
 	github.com/containerd/console v1.0.5
 	github.com/containerd/continuity v0.4.5
 	github.com/containerd/fifo v1.1.0
@@ -28,9 +28,9 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/procfs v0.19.2
 	github.com/rcrowley/go-metrics v0.0.0-20200313005456-10cdbea86bc0
-	github.com/redis/go-redis/v9 v9.7.0
+	github.com/redis/go-redis/v9 v9.7.3
 	github.com/shopspring/decimal v1.4.0
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 	github.com/stretchr/testify v1.11.1
 	github.com/tatsushid/go-fastping v0.0.0-20160109021039-d7bb493dee3e
 	github.com/tchap/go-patricia/v2 v2.3.3
@@ -38,16 +38,16 @@ require (
 	github.com/tencentcloud/CubeSandbox/pkgs/proto v0.0.0
 	github.com/vishvananda/netlink v1.3.1
 	go.etcd.io/bbolt v1.4.3
-	golang.org/x/net v0.47.0
-	golang.org/x/sync v0.18.0
-	golang.org/x/sys v0.38.0
+	golang.org/x/net v0.55.0
+	golang.org/x/sync v0.21.0
+	golang.org/x/sys v0.46.0
 	golang.org/x/time v0.14.0
 	google.golang.org/grpc v1.78.0
-	google.golang.org/protobuf v1.36.10
+	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/apimachinery v0.34.1
-	k8s.io/client-go v0.34.1
-	k8s.io/cri-api v0.34.1
+	k8s.io/apimachinery v0.34.10
+	k8s.io/client-go v0.34.10
+	k8s.io/cri-api v0.34.10
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4
 )
 
@@ -57,7 +57,7 @@ require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/buger/jsonparser v1.1.2 // indirect
 	github.com/bytedance/sonic v1.14.0 // indirect
 	github.com/bytedance/sonic/loader v0.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -100,7 +100,7 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/intel/goresctrl v0.10.0 // indirect
 	github.com/josharian/native v1.1.0 // indirect
-	github.com/klauspost/compress v1.18.1 // indirect
+	github.com/klauspost/compress v1.18.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
@@ -111,7 +111,7 @@ require (
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 // indirect
 	github.com/minio/sha256-simd v1.0.0 // indirect
 	github.com/moby/locker v1.0.1 // indirect
-	github.com/moby/spdystream v0.5.0 // indirect
+	github.com/moby/spdystream v0.5.1 // indirect
 	github.com/moby/sys/capability v0.4.0 // indirect
 	github.com/moby/sys/sequential v0.6.0 // indirect
 	github.com/moby/sys/signal v0.7.1 // indirect
@@ -135,8 +135,8 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.67.2 // indirect
-	github.com/quic-go/qpack v0.5.1 // indirect
-	github.com/quic-go/quic-go v0.54.0 // indirect
+	github.com/quic-go/qpack v0.6.0 // indirect
+	github.com/quic-go/quic-go v0.59.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sasha-s/go-deadlock v0.3.5 // indirect
 	github.com/smallstep/pkcs7 v0.1.1 // indirect
@@ -151,15 +151,14 @@ require (
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.63.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.63.0 // indirect
-	go.opentelemetry.io/otel v1.38.0 // indirect
-	go.opentelemetry.io/otel/metric v1.38.0 // indirect
-	go.opentelemetry.io/otel/trace v1.38.0 // indirect
+	go.opentelemetry.io/otel v1.41.0 // indirect
+	go.opentelemetry.io/otel/metric v1.41.0 // indirect
+	go.opentelemetry.io/otel/trace v1.41.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	golang.org/x/arch v0.20.0 // indirect
-	golang.org/x/crypto v0.45.0 // indirect
-	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/crypto v0.53.0 // indirect
+	golang.org/x/mod v0.36.0 // indirect
 	golang.org/x/oauth2 v0.32.0 // indirect
-	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20251103181224-f26f9409b101 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
@@ -173,10 +172,10 @@ require (
 )
 
 require (
-	github.com/Microsoft/hcsshim v0.14.0-rc.1
+	github.com/Microsoft/hcsshim v0.14.1
 	github.com/containerd/cgroups/v3 v3.1.2
 	github.com/containerd/containerd/api v1.10.0
-	github.com/containerd/containerd/v2 v2.2.2
+	github.com/containerd/containerd/v2 v2.2.8
 	github.com/containerd/errdefs v1.0.0
 	github.com/containerd/errdefs/pkg v0.3.0
 	github.com/containerd/go-cni v1.1.13
@@ -196,13 +195,13 @@ require (
 	github.com/tencentcloud/CubeSandbox/CubeNet/cubevs v0.0.0
 	github.com/urfave/cli/v2 v2.27.7
 	go.uber.org/mock v0.6.0
-	golang.org/x/term v0.37.0
-	golang.org/x/text v0.31.0
-	k8s.io/api v0.34.1
+	golang.org/x/term v0.44.0
+	golang.org/x/text v0.38.0
+	k8s.io/api v0.34.10
 	k8s.io/cloud-provider v0.34.1
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kubelet v0.31.2
-	k8s.io/kubernetes v1.34.1
+	k8s.io/kubernetes v1.34.2
 	sigs.k8s.io/yaml v1.6.0
 )
 
